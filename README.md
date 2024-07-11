@@ -26,6 +26,10 @@ pip install unitwise
 
 **VolumeConverter** - liters, milliliters, cubic_meters, cubic_centimeters, cubic_inches, cubic_feet, gallons, quarts, pints, cups
 
+**PressureConverter** - pascals, kilopascals, psi, bars, atmospheres
+
+**SpeedConverter** - meters_per_second, kilometers_per_hour, miles_per_hour, feet_per_second, knots
+
 
 
 

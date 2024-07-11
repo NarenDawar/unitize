@@ -15,3 +15,9 @@ Modules
 
 .. automodule:: UnitWise.volume
    :members:
+
+.. automodule:: UnitWise.pressure
+   :members:
+
+.. automodule:: UnitWise.speed
+   :members:

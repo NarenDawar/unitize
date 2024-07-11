@@ -57,3 +57,33 @@ Volume Conversion
     # Convert 1 liter to milliliters
     milliliters = VolumeConverter.convert(1, 'liters', 'milliliters')
     print(milliliters)  # Output: 1000.0
+
+Speed Conversion
+----------------
+
+.. code-block:: python
+
+    from UnitWise.speed import SpeedConverter
+
+    # Convert 1 meter per second to kilometers per hour
+    kilometers_per_hour = SpeedConverter.convert(1, 'meters_per_second', 'kilometers_per_hour')
+    print(kilometers_per_hour)  # Output: 3.6
+
+    # Convert 1 mile per hour to knots
+    knots = SpeedConverter.convert(1, 'miles_per_hour', 'knots')
+    print(knots)  # Output: 0.868976
+
+Pressure Conversion
+-------------------
+
+.. code-block:: python
+
+    from UnitWise.pressure import PressureConverter
+
+    # Convert 1000 pascals to kilopascals
+    kilopascals = PressureConverter.convert(1000, 'pascals', 'kilopascals')
+    print(kilopascals)  # Output: 1.0
+
+    # Convert 1 atmosphere to pascals
+    pascals = PressureConverter.convert(1, 'atmospheres', 'pascals')
+    print(pascals)  # Output: 101325.0
