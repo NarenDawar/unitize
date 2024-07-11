@@ -13,4 +13,17 @@ You can install unitwise using pip:
 **bash**
 pip install unitwise
 
+## Classes & Units
+**LengthConverter** - meters, kilometers, centimeters, millimeters, inches, feet, yards, miles
+-
+**MassConverter** - grams, kilograms, milligrams, pounds, ounces
+-
+**TemperatureConverter** - fahrenheit, celsius, kelvin
+-
+**TimeConverter** - seconds, minutes, hours, days, weeks
+-
+**VolumeConverter** - liters, milliliters, cubic_meters, cubic_centimeters, cubic_inches, cubic_feet, gallons, quarts, pints, cups
+
+
+
 
