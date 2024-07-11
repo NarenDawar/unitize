@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+this_directory = Path(__file__).parent
 
 VERSION = '0.0.3' 
 DESCRIPTION = 'A package for unit conversion and casting.'
-LONG_DESCRIPTION = 'This package aims to simplify working with varying units and metrics.'
+LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
 # Setting up
 setup(
