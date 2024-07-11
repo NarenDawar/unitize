@@ -1,5 +1,5 @@
 # UnitWise
-![Version](https://img.shields.io/badge/pypi-v0.0.2-blue)
+![Version](https://img.shields.io/badge/pypi-v0.0.3-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Update](https://img.shields.io/badge/last_updated-7/11/24-green)
 ![Test Status](https://github.com/NarenDawar/unitwise/workflows/Tests/badge.svg)
