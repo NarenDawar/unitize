@@ -2,3 +2,5 @@ unitwise.egg-info/
 build/
 dist/
 .vscode/
+make.bat
+Makefile
