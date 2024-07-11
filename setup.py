@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'A package for unit conversion and casting.'
 LONG_DESCRIPTION = 'This package aims to simplify working with varying units and metrics.'
 
