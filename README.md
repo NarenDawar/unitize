@@ -1,4 +1,4 @@
-# UnitWise
+# unitwise
 ![Version](https://img.shields.io/badge/pypi-v0.0.3-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Update](https://img.shields.io/badge/last_updated-7/11/24-green)
