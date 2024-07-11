@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pathlib import Path
 this_directory = Path(__file__).parent
 
-VERSION = '0.0.3' 
+VERSION = '0.0.5' 
 DESCRIPTION = 'A package for unit conversion and casting.'
 LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
@@ -13,6 +13,7 @@ setup(
         author="Naren Dawar",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
+        long_description_content_type='text/markdown',
         packages=find_packages(),
         install_requires=[],  
         
