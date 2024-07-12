@@ -5,7 +5,7 @@
 ![Test Status](https://github.com/NarenDawar/unitize/workflows/Tests/badge.svg)
 
 
-unitize is a Python package that provides convenient utilities for converting between various units of measurement. It includes converters for length, mass, temperature, time, and volume, making it easy to perform accurate conversions in your Python applications.
+unitize is a Python package that provides convenient utilities for converting between various units of measurement. It includes converters for length, mass, temperature, time, speed, pressure, and volume, making it easy to perform accurate conversions in your Python applications.
 
 ## Installation
 
