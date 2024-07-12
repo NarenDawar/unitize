@@ -1,14 +1,14 @@
 Usage
 =====
 
-Here's how to use convertly to convert units.
+Here's how to use unitize to convert units.
 
 Length Conversion
 -----------------
 
 .. code-block:: python
 
-    from convertly.length import LengthConverter
+    from unitize.length import LengthConverter
 
     # Convert 1000 meters to kilometers
     kilometers = LengthConverter.convert(1000, 'meters', 'kilometers')
@@ -19,7 +19,7 @@ Mass Conversion
 
 .. code-block:: python
 
-    from convertly.mass import MassConverter
+    from unitize.mass import MassConverter
 
     # Convert 1000 grams to kilograms
     kilograms = MassConverter.convert(1000, 'grams', 'kilograms')
@@ -30,7 +30,7 @@ Time Conversion
 
 .. code-block:: python
 
-    from convertly.time import TimeConverter
+    from unitize.time import TimeConverter
 
     # Convert 3600 seconds to hours
     hours = TimeConverter.convert(3600, 'seconds', 'hours')
@@ -41,7 +41,7 @@ Temperature Conversion
 
 .. code-block:: python
 
-    from convertly.temperature import TemperatureConverter
+    from unitize.temperature import TemperatureConverter
 
     # Convert 100 degrees Celsius to Fahrenheit
     fahrenheit = TemperatureConverter.convert(100, 'celsius', 'fahrenheit')
@@ -52,7 +52,7 @@ Volume Conversion
 
 .. code-block:: python
 
-    from convertly.volume import VolumeConverter
+    from unitize.volume import VolumeConverter
 
     # Convert 1 liter to milliliters
     milliliters = VolumeConverter.convert(1, 'liters', 'milliliters')
@@ -63,7 +63,7 @@ Speed Conversion
 
 .. code-block:: python
 
-    from convertly.speed import SpeedConverter
+    from unitize.speed import SpeedConverter
 
     # Convert 1 meter per second to kilometers per hour
     kilometers_per_hour = SpeedConverter.convert(1, 'meters_per_second', 'kilometers_per_hour')
@@ -78,7 +78,7 @@ Pressure Conversion
 
 .. code-block:: python
 
-    from convertly.pressure import PressureConverter
+    from unitize.pressure import PressureConverter
 
     # Convert 1000 pascals to kilopascals
     kilopascals = PressureConverter.convert(1000, 'pascals', 'kilopascals')

@@ -4,7 +4,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from convertly.mass import MassConverter  
+from unitize.mass import MassConverter  
 
 class TestMassConverter(unittest.TestCase):
     def test_grams_to_kilograms(self):

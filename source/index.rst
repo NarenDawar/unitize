@@ -1,9 +1,9 @@
-.. UnitWise documentation master file, created by
+.. Unitize documentation master file, created by
    sphinx-quickstart on Thu Jul 15 10:54:23 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to convertly's documentation!
+Welcome to unitize's documentation!
 ====================================
 
 .. toctree::

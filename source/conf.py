@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'convertly'
+project = 'unitize'
 copyright = '2024, Naren Dawar'
 author = 'Naren Dawar'
 release = 'v0.0.5'

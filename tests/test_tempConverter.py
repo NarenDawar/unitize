@@ -4,7 +4,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from convertly.temperature import TemperatureConverter 
+from unitize.temperature import TemperatureConverter 
 
 class TestTemperatureConverter(unittest.TestCase):
     def test_celsius_to_fahrenheit(self):

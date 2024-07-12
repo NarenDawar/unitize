@@ -4,7 +4,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from convertly.time import TimeConverter  
+from unitize.time import TimeConverter  
 
 class TestTimeConverter(unittest.TestCase):
     def test_seconds_to_minutes(self):

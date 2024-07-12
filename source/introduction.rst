@@ -1,7 +1,7 @@
 Introduction
 ============
 
-convertly is a Python package for unit conversion. It supports conversions for length, mass, time, temperature, and volume.
+unitize is a Python package for unit conversion. It supports conversions for length, mass, time, temperature, and volume.
 
 Features
 --------
