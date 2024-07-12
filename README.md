@@ -20,7 +20,7 @@ pip install convertly
 
 **MassConverter** - grams, kilograms, milligrams, pounds, ounces
 
-**TemperatureConverter** - fahrenheit, celsius, kelvin
+**TemperatureConverter** - Fahrenheit, Celsius, Kelvin
 
 **TimeConverter** - seconds, minutes, hours, days, weeks
 
