@@ -1,23 +1,23 @@
 Modules
 =======
 
-.. automodule:: UnitWise.length
+.. automodule:: convertly.length
    :members:
 
-.. automodule:: UnitWise.mass
+.. automodule:: convertly.mass
    :members:
 
-.. automodule:: UnitWise.time
+.. automodule:: convertly.time
    :members:
 
-.. automodule:: UnitWise.temperature
+.. automodule:: convertly.temperature
    :members:
 
-.. automodule:: UnitWise.volume
+.. automodule:: convertly.volume
    :members:
 
-.. automodule:: UnitWise.pressure
+.. automodule:: convertly.pressure
    :members:
 
-.. automodule:: UnitWise.speed
+.. automodule:: convertly.speed
    :members:

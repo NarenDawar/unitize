@@ -1,7 +1,7 @@
 Installation
 ============
 
-To install UnitWise, use pip:
+To install convertly, use pip:
 
 .. code-block:: bash
 

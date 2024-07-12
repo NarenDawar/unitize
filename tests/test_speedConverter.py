@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from unitwise.speed import SpeedConverter
+from convertly.speed import SpeedConverter
 
 class TestSpeedConverter(unittest.TestCase):
     def test_mps_to_kph(self):

@@ -4,7 +4,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from unitwise.volume import VolumeConverter  
+from convertly.volume import VolumeConverter  
 
 class TestVolumeConverter(unittest.TestCase):
     def test_liters_to_gallons(self):

@@ -8,7 +8,7 @@ LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
 # Setting up
 setup(
-        name="unitwise", 
+        name="convertly", 
         version=VERSION,
         author="Naren Dawar",
         description=DESCRIPTION,
