@@ -9,7 +9,7 @@
 project = 'unitize'
 copyright = '2024, Naren Dawar'
 author = 'Naren Dawar'
-release = 'v0.0.5'
+release = 'v0.0.4'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
