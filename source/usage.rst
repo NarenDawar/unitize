@@ -1,14 +1,14 @@
 Usage
 =====
 
-Here's how to use unitize to convert units.
+Here's how to use UnitWise to convert units.
 
 Length Conversion
 -----------------
 
 .. code-block:: python
 
-    from unitize.length import LengthConverter
+    from UnitWise.length import LengthConverter
 
     # Convert 1000 meters to kilometers
     kilometers = LengthConverter.convert(1000, 'meters', 'kilometers')
@@ -19,7 +19,7 @@ Mass Conversion
 
 .. code-block:: python
 
-    from unitize.mass import MassConverter
+    from UnitWise.mass import MassConverter
 
     # Convert 1000 grams to kilograms
     kilograms = MassConverter.convert(1000, 'grams', 'kilograms')
@@ -30,7 +30,7 @@ Time Conversion
 
 .. code-block:: python
 
-    from unitize.time import TimeConverter
+    from UnitWise.time import TimeConverter
 
     # Convert 3600 seconds to hours
     hours = TimeConverter.convert(3600, 'seconds', 'hours')
@@ -41,7 +41,7 @@ Temperature Conversion
 
 .. code-block:: python
 
-    from unitize.temperature import TemperatureConverter
+    from UnitWise.temperature import TemperatureConverter
 
     # Convert 100 degrees Celsius to Fahrenheit
     fahrenheit = TemperatureConverter.convert(100, 'celsius', 'fahrenheit')
@@ -52,38 +52,41 @@ Volume Conversion
 
 .. code-block:: python
 
-    from unitize.volume import VolumeConverter
+    from UnitWise.volume import VolumeConverter
 
     # Convert 1 liter to milliliters
     milliliters = VolumeConverter.convert(1, 'liters', 'milliliters')
     print(milliliters)  # Output: 1000.0
 
-Speed Conversion
-----------------
+Energy Conversion
+-----------------
 
 .. code-block:: python
 
-    from unitize.speed import SpeedConverter
+    from UnitWise.energy import EnergyConverter
 
-    # Convert 1 meter per second to kilometers per hour
-    kilometers_per_hour = SpeedConverter.convert(1, 'meters_per_second', 'kilometers_per_hour')
-    print(kilometers_per_hour)  # Output: 3.6
+    # Convert 1000 joules to calories
+    calories = EnergyConverter.convert(1000, 'joules', 'calories')
+    print(calories)  # Output: 239.006
 
-    # Convert 1 mile per hour to knots
-    knots = SpeedConverter.convert(1, 'miles_per_hour', 'knots')
-    print(knots)  # Output: 0.868976
-
-Pressure Conversion
--------------------
+Data Storage Conversion
+-----------------------
 
 .. code-block:: python
 
-    from unitize.pressure import PressureConverter
+    from UnitWise.data_storage import DataStorageConverter
 
-    # Convert 1000 pascals to kilopascals
-    kilopascals = PressureConverter.convert(1000, 'pascals', 'kilopascals')
-    print(kilopascals)  # Output: 1.0
+    # Convert 1024 bytes to kilobytes
+    kilobytes = DataStorageConverter.convert(1024, 'bytes', 'kilobytes')
+    print(kilobytes)  # Output: 1.0
 
-    # Convert 1 atmosphere to pascals
-    pascals = PressureConverter.convert(1, 'atmospheres', 'pascals')
-    print(pascals)  # Output: 101325.0
+Frequency Conversion
+--------------------
+
+.. code-block:: python
+
+    from UnitWise.frequency import FrequencyConverter
+
+    # Convert 1000 hertz to kilohertz
+    kilohertz = FrequencyConverter.convert(1000, 'hertz', 'kilohertz')
+    print(kilohertz)  # Output: 1.0
