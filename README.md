@@ -30,6 +30,10 @@ pip install unitize
 
 **SpeedConverter** - meters_per_second, kilometers_per_hour, miles_per_hour, feet_per_second, knots
 
+**DataStorageConverter** - bytes, kilobytes, megabytes, gigabytes, terabytes, petabytes
+
+**EnergyConverter** - joules, calories, kilowatt_hours, btu (british thermal unit)
+
 
 
 
