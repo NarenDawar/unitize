@@ -1,3 +1,4 @@
+from history import *
 
 class LengthConverter:
     conversion_factors = {
@@ -24,4 +25,13 @@ class LengthConverter:
         
         comp_value = (value) / LengthConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * LengthConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+
         return (final_value)

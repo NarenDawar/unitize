@@ -1,3 +1,5 @@
+from history import *
+
 class MassConverter:
     conversion_factors = {
         'grams': 1.0,
@@ -21,4 +23,13 @@ class MassConverter:
         
         comp_value = value / MassConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * MassConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+
         return final_value

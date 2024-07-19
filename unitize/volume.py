@@ -1,3 +1,5 @@
+from history import *
+
 class VolumeConverter:
     conversion_factors = {
         'liters': 1.0,
@@ -24,4 +26,13 @@ class VolumeConverter:
         
         comp_value = value / VolumeConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * VolumeConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': value * 9/5 + 32
+        }
+        add_to_history(conversion)
+        
         return final_value

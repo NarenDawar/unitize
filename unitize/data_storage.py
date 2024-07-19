@@ -1,3 +1,5 @@
+from history import *
+
 class DataStorageConverter:
     conversion_factors = {
         'bytes': 1.0,
@@ -20,4 +22,13 @@ class DataStorageConverter:
         
         comp_value = value / DataStorageConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * DataStorageConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+
         return final_value

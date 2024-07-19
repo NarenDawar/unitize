@@ -1,3 +1,5 @@
+from history import *
+
 class SpeedConverter:
     conversion_factors = {
         'meters_per_second': 1.0,
@@ -20,4 +22,13 @@ class SpeedConverter:
         
         comp_value = value / SpeedConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * SpeedConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+        
         return final_value

@@ -1,3 +1,5 @@
+from history import *
+
 class PressureConverter:
     conversion_factors = {
         'pascals': 1.0,
@@ -20,4 +22,13 @@ class PressureConverter:
         
         comp_value = value / PressureConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * PressureConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+
         return final_value

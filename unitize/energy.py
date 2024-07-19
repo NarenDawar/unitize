@@ -1,3 +1,5 @@
+from history import *
+
 class EnergyConverter:
     conversion_factors = {
         'joules': 1.0,
@@ -18,4 +20,13 @@ class EnergyConverter:
         
         comp_value = value / EnergyConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * EnergyConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': final_value
+        }
+        add_to_history(conversion)
+
         return final_value

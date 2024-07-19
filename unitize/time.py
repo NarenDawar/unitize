@@ -1,3 +1,5 @@
+from history import *
+
 class TimeConverter:
     conversion_factors = {
         'seconds': 1.0,
@@ -21,4 +23,13 @@ class TimeConverter:
         
         comp_value = value / TimeConverter.conversion_factors[from_unit.lower()]
         final_value = comp_value * TimeConverter.conversion_factors[to_unit.lower()]
+
+        conversion = {
+            'value': value,
+            'from_unit': from_unit,
+            'to_unit': to_unit,
+            'result': value * 9/5 + 32
+        }
+        add_to_history(conversion)
+        
         return final_value
