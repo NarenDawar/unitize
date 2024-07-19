@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pathlib import Path
 this_directory = Path(__file__).parent
 
-VERSION = '0.0.6' 
+VERSION = '0.0.7' 
 DESCRIPTION = 'A package for unit conversion and casting.'
 LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 

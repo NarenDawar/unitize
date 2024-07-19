@@ -1,5 +1,5 @@
 # unitize
-![Version](https://img.shields.io/badge/pypi-v0.0.6-blue)
+![Version](https://img.shields.io/badge/pypi-v0.0.7-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Update](https://img.shields.io/badge/last_updated-7/18/24-green)
 ![Test Status](https://github.com/NarenDawar/unitize/workflows/Tests/badge.svg)
