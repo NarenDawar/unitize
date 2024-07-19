@@ -8,6 +8,9 @@ class DataStorageConverter:
         'petabytes': 1 / 1125899906842624.0
     }
 
+    def add_custom_unit(unit_name, conversion_factor):
+        DataStorageConverter.conversion_factors[unit_name.lower()] = conversion_factor
+
     @staticmethod
     def convert(value, from_unit, to_unit):
         if not isinstance(value, (int, float)):

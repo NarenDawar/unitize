@@ -7,6 +7,9 @@ class PressureConverter:
         'atmospheres': 9.86923e-6
     }
 
+    def add_custom_unit(unit_name, conversion_factor):
+        PressureConverter.conversion_factors[unit_name.lower()] = conversion_factor
+
     @staticmethod
     def convert(value, from_unit, to_unit):
         if not isinstance(value, (int, float)):

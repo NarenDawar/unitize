@@ -11,6 +11,9 @@ class LengthConverter:
         'miles': (0.000621371)
     }
 
+    def add_custom_unit(unit_name, conversion_factor):
+        LengthConverter.conversion_factors[unit_name.lower()] = conversion_factor
+
     @staticmethod
     def convert(value, from_unit, to_unit):
 

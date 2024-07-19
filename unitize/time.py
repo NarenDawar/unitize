@@ -7,6 +7,9 @@ class TimeConverter:
         'weeks': 1 / 604800.0
     }
 
+    def add_custom_unit(unit_name, conversion_factor):
+        TimeConverter.conversion_factors[unit_name.lower()] = conversion_factor
+
     @staticmethod
     def convert(value, from_unit, to_unit):
 
