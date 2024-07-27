@@ -1,4 +1,4 @@
-from history import *
+from .history import *
 
 class TimeConverter:
     conversion_factors = {

@@ -1,4 +1,4 @@
-from history import *
+from .history import *
 
 class VolumeConverter:
     conversion_factors = {

@@ -1,4 +1,4 @@
-from history import *
+from .history import *
 
 class TemperatureConverter:
     temps = ["fahrenheit", "celsius", "kelvin"]

@@ -1,4 +1,4 @@
-from history import *
+from .history import *
 
 class SpeedConverter:
     conversion_factors = {
